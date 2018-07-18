@@ -10,9 +10,10 @@ Using Stanford CoreNLP system [1], please develop a simple AWS Lambda [2] functi
 [2] https://aws.amazon.com/lambda/
 [3] https://en.wikipedia.org/wiki/Named-entity_recognition
 
-# Deployment - Build Lambda Package on EC2  
+# Deployment 1 - Build Lambda Package on EC2  
 
-The Lambda package (jar) is available at: 
+The Lambda package (jar) is available at: second.world.stockvirtual.info/lambda-java-example-1.0-SNAPSHOT.jar 
+
 This package is ready to be deployed to Lambda.
 
 Follow the following steps to start from the scratch
@@ -23,7 +24,7 @@ Follow the following steps to start from the scratch
 
 3. use the command "mvn package" to buildthe jar file which should be located under the 'target' folder
 
-# Deployment - setup Lambda function 
+# Deployment 2 - setup Lambda function 
 
 1. upload the package (jar file) to a S3 bucket. Because of the package size is larger than 50MB, so it needs to be uploaded to S3 before imported to Lambda.
 
