@@ -34,7 +34,7 @@ Follow the following steps to start from the scratch:
 
 4. create an environment variable 'INPUT' with a paragraph of text. 
 
-5. Click on 'Save' and then click on 'Test'. The result should look like this:
+5. Click on 'Save' and then click on 'Test'. The Lambda function reads in the content of the INPUT environment variable and performs ner and sentiment. The result should look like this:
 "Detected entity:  She(PERSON)  Tom(PERSON)  UK(COUNTRY)  George(PERSON)  King(TITLE) The sentiment of the sentences are: Negative, Very positive, Negative, Neutral, Positive, Neutral, Negative, , and the overall sentiment rating is 1".
 
 
