@@ -20,7 +20,8 @@ Follow the following steps to start from the scratch:
 1. create an ubuntu EC2 instance and make sure jdk and maven installed correctly.  
 
 2. create a project folder, check out this repository. 
-
+  * the original CoreNLP model jar is 360 MB which is too big for Lambda. I removed some unnecessary models and installed the customized jar file to the local maven repository. The customized jar file can be found in the Lambda deployment package. 
+  
 3. use the command "mvn package" to buildthe the jar file which should be located under the 'target' folder.
 
 # Deployment 2 - setup Lambda function 
