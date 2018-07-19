@@ -12,7 +12,7 @@ Using Stanford CoreNLP system [1], please develop a simple AWS Lambda [2] functi
 
 # Deployment 1 - Build Lambda Package on EC2  
 
-The Lambda package (jar) is available at: second.world.stockvirtual.info/lambda-java-example-1.0-SNAPSHOT.jar 
+The Lambda package (jar) is available at: http://second.world.stockvirtual.info/lambda-java-example-1.0-SNAPSHOT.jar 
 
 This package is ready to be deployed to Lambda.
 
